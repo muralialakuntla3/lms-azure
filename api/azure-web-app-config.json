@@ -1,0 +1,62 @@
+[
+  {
+    "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+    "_comment": "This is the personal access token you created in the last step.",
+    "value": "ghp_token_value",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCKER_REGISTRY_SERVER_URL",
+    "_comment": "This is the container registry URL of your GitHub account. It is same for all users.",
+    "value": "https://ghcr.io",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+    "_comment": "This is your GitHub username.",
+    "value": "ramesh-digital-edify",
+    "slotSetting": false
+  },
+  {
+    "name": "PORT",
+    "_comment": "This is the port number your app listens to. Only use 8080",
+    "value": "8080",
+    "slotSetting": false
+  },
+  {
+    "name": "JWT_SECRET",
+    "_comment": "Random string of characters. You can use `openssl rand -hex 32` to generate one.",
+    "value": "02dd5dd3b38d4a408d56d1d12c8e6cf590a286e4f7ed333a515ec55fee1184b8",
+    "slotSetting": false
+  },
+  {
+    "name": "MODE",
+    "_comment": "Set this to `dev` for development and `prod` for production.",
+    "value": "dev",
+    "slotSetting": false
+  },
+  {
+    "name": "NODE_ENV",
+    "_comment": "Set this to `development` for development and `production` for production.",
+    "value": "production",
+    "slotSetting": false
+  },
+  {
+    "name": "DATABASE_URL",
+    "_comment": "This is the connection string to your PostgreSQL database. You can get this from the Azure portal. You need to provide this in prisma format. Example: postgres://user:password@host:port/database",
+    "value": "postgres://dbuser:password@hostname.com/postgres?sslmode=require",
+    "slotSetting": false
+  },
+  {
+    "name": "REDIS_HOST",
+    "_comment": "This is the host of your Redis server. You can get this from the Azure portal. Use SSL connection. Port should be provided. Example: my-redis.redis.cache.windows.net:6380",
+    "value": "hostname.redis.cache.windows.net:6380",
+    "slotSetting": false
+  },
+  {
+    "name": "REDIS_PASSWORD",
+    "_comment": "This is the password of your Redis server. You can get this from the Azure portal.",
+    "value": "access_key_or_password",
+    "slotSetting": false
+  }
+]
