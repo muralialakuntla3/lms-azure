@@ -42,7 +42,7 @@ jobs:
         with:
           submodules: true
       - name: Run tests
-        run: npm test && exit 1
+        run: cd webapp && npm install && npm test && cd ..
         shell: bash
 
       - name: Build And Deploy
